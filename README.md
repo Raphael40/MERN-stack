@@ -75,12 +75,8 @@ Now you can use the React workout application to create and manage your workouts
 
 ## Backend
 
-The backend of this application is built using Express.js and interacts with MongoDB Atlas to store workout data. It provides the following API endpoints:
+The backend of this application is built using Express.js and interacts with MongoDB Atlas to store workout data.
 
-GET /api/workouts: Fetches all workouts.
-GET /api/workouts/:id: Fetches a single workout by ID.
-POST /api/workouts: Creates a new workout.
-DELETE /api/workouts/:id: Deletes a workout by ID.
 The backend is located in the backend/ directory of the repository.
 
 ## Contributing
