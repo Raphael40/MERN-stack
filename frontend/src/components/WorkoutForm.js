@@ -71,7 +71,7 @@ const WorkoutForm = () => {
       />
 
       <button>Add Workout</button>
-      {error && <div className="error">{error}</div>}
+      {error && <div role="alert" aria-label="Error Message" className="error">{error}</div>}
     </form>
   )
 }
